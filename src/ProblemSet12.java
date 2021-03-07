@@ -169,16 +169,4 @@ public class ProblemSet12 {
             }
         }
     }
-
-
-    public static void main(String[] args) {
-        ProblemSet12 test = new ProblemSet12();
-
-        System.out.println(test.strDist("catcowcat", "cat"));
-        System.out.println(test.strDist("catcowcat", "cow"));
-        System.out.println(test.strDist("cccatcowcatxx", "cat"));
-        System.out.println(test.strDist("catcowcowcat", "cat"));
-        System.out.println(test.strDist("ffcctcatccgg", "cat"));
-        System.out.println(test.strDist("ccfcatfcc", "cat"));
-    }
 }
